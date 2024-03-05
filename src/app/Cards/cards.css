@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2{
+    width: 15rem;
+    height: 10rem;
+    object-fit: contain;
+    transform: translate(10rem, -5rem)
+    rotate(10deg)
+}
+
+
+.container.card{
+    flex: 1;
+}
+   
+.card{
+display: flex;
+flex-direction: column;
+}

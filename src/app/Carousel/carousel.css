@@ -1,0 +1,18 @@
+.image-ang{
+    position: absolute;
+    transform: translate(60px, 7rem);
+    opacity: 0.25;
+   
+}
+
+.card-flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+}
+
+CardBody{
+    padding-top: 2rem;
+}

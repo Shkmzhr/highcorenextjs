@@ -1,0 +1,16 @@
+
+
+
+
+#animated-text {
+    color: #c1c1c1; /* Initial color */
+  }
+  
+  @keyframes text-color-animation {
+    from { color: #333; } /* Starts from initial color */
+    to { color: #007bff; } /* Animates to a new color */
+  }
+  
+  #animated-text.animate {
+    animation: text-color-animation 2s ease-in-out infinite alternate; /* Animation definition */
+  }
