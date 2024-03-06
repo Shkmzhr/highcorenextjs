@@ -1,6 +1,7 @@
+'use client'
 import { Card, CardContent } from "@/components/ui/card";
 import './carousel.css'
-
+import Image from 'next/image'
 import {
   Carousel,
   CarouselContent,
@@ -62,10 +63,13 @@ const cardData = [
   function CardTitle({ children }: { children: string }) {
     return <h3 className="text-2xl font-semibold">{children}</h3>;
   }
-
-  function CardImage({ src, alt }) {
+  interface CardImageProps {
+    src: string; // Specify that src should be a string
+    alt: string;
+  }
+  function CardImage({ src, alt }: CardImageProps) {
     return (
-      <img src={src} alt={alt} className="h-[130px] w-[130px] object-cover rounded-lg image-ang" />
+      <Image src={src} alt={alt} className="h-[130px] w-[130px] object-cover rounded-lg image-ang" width="130" height={130}/>
     );
   }
   function CardBody({ children }: { children: string }) {

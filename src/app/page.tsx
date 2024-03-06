@@ -16,7 +16,9 @@ export default function Home() {
     <div>
 <Navbar />
       <Hero />
+    <div>
       <Midsection />
+    </div>
       <About />
       <Swipe />
  <Cards />
