@@ -46,7 +46,7 @@ function Contact() {
           </div>
         </div>
         <div className="mb-6">
-          <textarea className="w-full rounded-xl placeholder:text-md px-6 py-4" placeholder="Enter your message" name="" id="" rows="8"></textarea>
+          <textarea className="w-full rounded-xl placeholder:text-md px-6 py-4" placeholder="Enter your message" name="" id="" rows={8}></textarea>
         </div>
         <div className="flex justify-center">
         <Button className='p-5 border-t-neutral-700 w-[10rem] hover:bg-slate-700'>Button</Button>
